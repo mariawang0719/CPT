@@ -198,6 +198,8 @@ def play(b, k, startTime):
             replit.clear()
             reset()
         else:
+            print("Game over!")
+            print("Thanks for playing!")
             quit()
     play(b, k, startTime)
 
